@@ -1,0 +1,32 @@
+{
+  "name": "ps-graphql",
+  "version": "1.0.0",
+  "description": "ps-graphql",
+  "author": "Samer Buna(ps - author)",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon --exec node lib/index.js",
+    "start2": "node lib/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactjscamp/name-contests.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "bugs": {
+    "url": "https://github.com/reactjscamp/name-contests/issues"
+  },
+  "homepage": "https://github.com/reactjscamp/name-contests#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "mongodb": "^2.1.18",
+    "pg": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
